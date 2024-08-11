@@ -15,7 +15,7 @@ print ("Год рождения Lena:",my_dict.get("Lena","Не найдено")
 
 my_dict.update({"Lena":"1982" ,"Lilya" :"2012"})
 print ("Расширенный словарь:",my_dict)
-print("Год рождения masha:" , my_dict.pop("masha"))
+print("Год рождения masha:(удалён)" , my_dict.pop("masha"))
 
 print ("Словарь без masha:", my_dict)
 
